@@ -1,0 +1,5 @@
+services:
+  echo:
+    build: .
+    ports:
+      - "1488:1488"
